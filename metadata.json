@@ -1,0 +1,6 @@
+{
+  "name": "Nova Unblocked Games",
+  "description": "A high-performance portal for unblocked web games with a clean, modern interface.",
+  "requestFramePermissions": ["fullscreen"],
+  "majorCapabilities": []
+}

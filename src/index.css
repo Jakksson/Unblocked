@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-primary: #00ff66;
+  --color-neon-secondary: #00ffff;
+  --color-dark-bg: #0a0a0a;
+  --color-card-bg: #151515;
+  --color-border-accent: #2a2a2a;
+}
+
+body {
+  @apply bg-dark-bg text-white font-sans antialiased selection:bg-neon-primary selection:text-black;
+}
+
+/* Brutalist card style */
+.game-card {
+  @apply bg-card-bg border-4 border-border-accent transition-all duration-200 cursor-pointer relative overflow-hidden;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.game-card:hover {
+  @apply border-neon-primary -translate-x-1 -translate-y-1;
+  box-shadow: 12px 12px 0px 0px rgba(0, 255, 102, 0.4);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border-accent border-2 border-dark-bg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neon-primary;
+}

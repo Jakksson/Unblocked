@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "thumbnail": "https://images.unsplash.com/photo-1553481187-be93c21490a9?q=80&w=800&auto=format&fit=crop",
+    "iframeUrl": "https://2048game.com/",
+    "description": "The classic sliding tile puzzle game."
+  },
+  {
+    "id": "hole-io",
+    "title": "Hole.io",
+    "category": "IO Games",
+    "thumbnail": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=800&auto=format&fit=crop",
+    "iframeUrl": "https://hole-io.com/",
+    "description": "Eat everything in the city as a black hole."
+  },
+  {
+    "id": "paper-io-2",
+    "title": "Paper.io 2",
+    "category": "IO Games",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=800&auto=format&fit=crop",
+    "iframeUrl": "https://paper-io.com/",
+    "description": "Conquer as much territory as possible."
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "category": "Action",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop",
+    "iframeUrl": "https://slope-game.github.io/",
+    "description": "Fast-paced ball rolling game down a neon slope."
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "category": "Classic",
+    "thumbnail": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=800&auto=format&fit=crop",
+    "iframeUrl": "https://flappybird.io/",
+    "description": "The original bird-flapping frustration."
+  },
+  {
+    "id": "crossy-road",
+    "title": "Crossy Road",
+    "category": "Classic",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop",
+    "iframeUrl": "https://poki.com/en/g/crossy-road",
+    "description": "Why did the chicken cross the road?"
+  }
+]
